@@ -16,5 +16,10 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql>exit
 
-Task_2_2.sql: Создайте базу данных example, разместите в ней таблицу users, состоящую из двух столбцов, числового id и строкового name. 
+Задание 2: Создайте базу данных example, разместите в ней таблицу users, состоящую из двух столбцов, числового id и строкового name. 
+Task_2_2.sql в master
+
+Задание 3: Создайте дамп базы данных example из предыдущего задания, разверните содержимое дампа в новую базу данных sample.
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysqldump -u root -p example > C:\MySQL_Dump\sample.sql
+Enter password: ********
 
