@@ -41,5 +41,10 @@ mysql> DESCRIBE sample.users;
 +-------+--------------+------+-----+---------+-------+
 2 rows in set (0.00 sec)
 
+Задание №4:
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysqldump -u root -p --where="true limit 100" mysql help_keyword > C:\MySQL_Dump\fourthtask.sql
+Enter password: ********
 
+mysql> CREATE DATABASE test_100;
 
+А вот записать в другую БД не получилось, ошибка 3723.
