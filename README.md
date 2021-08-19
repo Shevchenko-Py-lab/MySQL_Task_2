@@ -23,3 +23,12 @@ Task_2_2.sql в master
 C:\Program Files\MySQL\MySQL Server 8.0\bin>mysqldump -u root -p example > C:\MySQL_Dump\sample.sql
 Enter password: ********
 
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p
+
+mysql> CREATE DATABASE sample;
+Query OK, 1 row affected (0.00 sec)
+mysql> exit
+
+C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p sample < C:\MySQL_Dump\sample.sql
+Enter password: ********
+
