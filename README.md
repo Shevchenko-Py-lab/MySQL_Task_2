@@ -32,3 +32,14 @@ mysql> exit
 C:\Program Files\MySQL\MySQL Server 8.0\bin>mysql -u root -p sample < C:\MySQL_Dump\sample.sql
 Enter password: ********
 
+mysql> DESCRIBE sample.users;
++-------+--------------+------+-----+---------+-------+
+| Field | Type         | Null | Key | Default | Extra |
++-------+--------------+------+-----+---------+-------+
+| id    | int          | YES  |     | NULL    |       |
+| name  | varchar(100) | YES  |     | NULL    |       |
++-------+--------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+
+
